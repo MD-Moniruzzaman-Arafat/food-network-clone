@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+p{
+    color: rgba(56, 46, 46, 0.534);
+    font-weight: 400;
+}
+.flex-item{
+    display: flex;
+    padding: 50px 100px;
+}
+.item{
+    width: 50%;
+}
+.orange-color{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+    
+}
+.item img{
+    width: 100%;
+}
+.item2{
+    margin-top: 150px;
+}
+.button-color{
+    text-decoration: none;
+    background-image: linear-gradient(to right, tomato,orange);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 50px;
+}
+.item3 img{
+    width: 50%;
+}
+.about-me{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px 0px;
+    height: 409px;
+}
+.recipies-item{
+    width: 35%;
+    border: 10px solid white;
+    border-radius: 10px;
+    margin: 5px;
+    
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.recipies-item img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.recipies-item h2{
+    margin-bottom: 10px;
+}
+.recipies-header h1{
+    text-align: center;
+}
+.recipies-header p{
+    text-align: center;
+}
+.recipies-header{
+    padding: 0px 200px;
+}
+.socile-media-section{
+    background-color: thistle;
+    margin: 50px 130px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    
+}
+.socile-media{
+    width: 30%;
+    margin: 0px 50px;
+}
+.socile-media p{
+    font-size: 12px;
+}
+footer{
+    background-color: black;
+    color: gray;
+    height: 100px;
+    padding: 20px;
+}
+footer h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer p{
+    color: gray;
+    text-align: center;
+    font-size: 10px;
+
+}
+.font-color{
+    color: orange;
+    text-align: center;
+}
+.contact-form{
+    text-align: center;
+}
+.contact-form input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+.contact-form input[type="button"]{
+    text-align: center;
+    width: 100px;
+}
+.contact-form textarea{
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
